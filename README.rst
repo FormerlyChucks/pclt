@@ -15,7 +15,7 @@ Upgrading:
 
     pip3 install --upgrade pclt
 
-PCLT comes with five options:
+PCLT comes with three options:
 
 - "download" for downloading files
 
