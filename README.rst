@@ -17,28 +17,28 @@ Upgrading:
 
 PCLT comes with three options:
 
-- "download" for downloading files
+- "dl" for downloading files
 
-- "pprint" for pretty-printing files
+- "pp" for pretty-printing files
 
-- "removefile" for removing files
+- "rf" for removing files
 
 Basic usage for downloading files:
 
 .. code-block:: bash
 
-    download -u <link> -n <file name>
+    dl -u <link> -n <file name>
 
 Basic usage for pretty-printing files:
 
 .. code-block:: bash
 
-    pprint -f <file>
+    pp -f <file>
 
 Basic usage for removing files:
 
 .. code-block:: bash
 
-    removefile -f <file>
+    rf -f <file>
 
 All issues/questions belong in the `project's issues section <https://github.com/ilikepyt/pclt/issues>`_.
