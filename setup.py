@@ -20,5 +20,5 @@ setup(
     author="diogenesjunior",
     author_email="diogenesjunior@protonmail.com",
     url="https://github.com/ilikepyt/pclt/",
-    install_requires=['requests']
+    install_requires=['requests','downsyndrome']
 )
