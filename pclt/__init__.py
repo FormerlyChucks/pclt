@@ -1,4 +1,4 @@
-import argparse, downsyndrome, json, os, pprint
+import argparse, json, os, pprint
 
 parser = argparse.ArgumentParser()
 
@@ -17,3 +17,6 @@ def dl():
     parser.add_argument('-n', '--name', help="Name Of File", required=True)
     args = parser.parse_args()
     downsyndrome.download(url=args.url,file_name=args.name)
+    with open(args.name,'wb') as f:
+        response = requests.get(args.url)
+        f.write(response.content)
